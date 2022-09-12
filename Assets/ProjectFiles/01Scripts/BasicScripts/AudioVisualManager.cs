@@ -10,6 +10,7 @@ namespace Assets.ProjectFiles._01Scripts.BasicScripts
         Simple,
         All
     }
+    [RequireComponent(typeof(AudioPeer))]
     public class AudioVisualManager : MonoBehaviour
     {
         #region Variables
